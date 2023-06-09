@@ -1,0 +1,82 @@
+[
+  {
+    "id":"prenda_1",
+    "titulo":"Campera",
+    "image":"./IMG/prenda%2001.jpg",
+    "precio": 230,
+    "cantidad": 1,
+    "categoria": { "id":"camperas" }
+  },
+  {
+    "id": "prenda_2",
+    "titulo": "Camiseta",
+    "image": "./IMG/prenda%2002.jpg",
+    "precio": 180,
+    "cantidad": 1,
+    "categoria": { "id":"camisetas" }
+  },
+  {
+    "id": "prenda_3",
+    "titulo": "Camiseta",
+    "image": "./IMG/prenda%2003.jpg",
+    "precio": 200,
+    "cantidad": 1,
+    "categoria": { "id": "camisetas" }
+  },
+  {
+    "id": "prenda_4",
+    "titulo": "Pantalon",
+    "image": "./IMG/prenda%2004.jpg",
+    "precio": 180,
+    "cantidad": 1,
+    "categoria": { "id": "pantalones" }
+  },
+  {
+    "id": "prenda_5",
+    "titulo": "Campera blanca",
+    "image": "./IMG/prenda%2005.jpg",
+    "precio": 300,
+    "cantidad": 1,
+    "categoria": { "id": "camperas" }
+  },
+  {
+    "id": "prenda_6",
+    "titulo": "Pantalon marron",
+    "image": "IMG/prenda%2006.jpg",
+    "precio": 250,
+    "cantidad": 1,
+    "categoria": { "id": "pantalones" }
+  },
+  {
+    "id":"prenda_7",
+    "titulo": "Campera Negra",
+    "image": "./IMG/prenda%207.jpg",
+    "precio": 300,
+    "cantidad": 1,
+    "categoria": { "id": "camperas" }
+  },
+  {
+    "id": "prenda_8",
+    "titulo": "Pantalon azul",
+    "image": "./IMG/prenda%208.jpg",
+    "precio": 220,
+    "cantidad": 1,
+    "categoria": { "id": "pantalones" }
+  },
+  {
+    "id": "prenda_9",
+    "titulo": "Camisa blanca",
+    "image": "./IMG/prenda%209.jpg",
+    "precio": 190,
+    "cantidad": 1,
+    "categoria": { "id": "camisas" }
+  },
+  {
+    "id": "prenda_10",
+    "titulo": "Camiseta rosa pastel",
+    "image": "./IMG/prenda%2010.jpg",
+    "precio": 250,
+    "cantidad": 1,
+    "categoria": { "id": "camisetas" }
+  }
+]

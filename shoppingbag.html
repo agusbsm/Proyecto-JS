@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ysabeau:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link rel="stylesheet" href="CSS/mainstyle.css" />
+    <script
+      src="https://kit.fontawesome.com/b656898017.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <h1>Logo</h1>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="./index.html">INICIO </a></li>
+          <li><a href="">SHOP</a></li>
+          <li><a href="">STORES</a></li>
+          <li><a href="">AYUDA</a></li>
+          <li>
+            <a href="./shoppingbag.html" class="activo">
+              <i class="fa-solid fa-bag-shopping"></i
+              ><span id="bolsa-numero" class="bolsa-numero">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div id="shoppingbag">
+      <p class="bolsa-vacia desactivado">La bolsa esta vacia.</p>
+      <table class="bolsita-productos desactivado" width="100%">
+        <thead>
+          <tr class="bolsita-detalles">
+            <td>ELIMINAR</td>
+            <td>IMAGEN</td>
+            <td>PRODUCTO</td>
+            <td>PRECIO</td>
+            <td>CANTIDAD</td>
+            <td>TOTAL</td>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- JS -->
+        </tbody>
+      </table>
+    </div>
+    <div class="subtotal desactivado">
+      <h3>Resumen de compra</h3>
+      <table>
+        <tr>
+          <td><strong>Subtotal</strong></td>
+          <td id="subtotal"><strong>$740</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Envio:</strong></td>
+          <td><strong>Gratis</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Total</strong></td>
+          <td id="total"><strong>$740</strong></td>
+        </tr>
+      </table>
+      <div class="btns-finales desactivado">
+        <button class="btn-comprar">Comprar</button>
+        <button class="btn-vaciar">Vaciar</button>
+      </div>
+      <div class="agradecimiento desactivado">
+        <h3>Muchas gracias</h3>
+        <h4>por tu</h4>
+        <h2>Compra!</h2>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="JS/shoppingbag.js"></script>
+  </body>
+</html>
